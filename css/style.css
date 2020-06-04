@@ -12,10 +12,13 @@ h1 {
 
 p {
   font-family: 'Chau Philomene One', sans-serif;
+  color: grey;
+line-height: 2;
 }
 
 h2 {
   color: #11999E;
+  margin: 30px auto;
 }
 
 h3 {
@@ -27,28 +30,37 @@ hr{
   border-width: 5px;
   border-top-style: dotted;
   border-color: grey;
-  width: 5%
-
+  width: 5%;
+  margin:100px auto;
 }
 .pro {
   font-size: 1.3rem;
   color: #66bfbf;
   font-weight: normal;
 }
+ .intro{
+   width:40%;
+   margin:20px auto;
+ }
 
 .top-container {
   background-color: #cbf1f5;
   padding-top: 80px;
 }
 
+.middle-container{
+  padding: 50px;
+}
+
+
 .bottom-container {
-  padding: 30px;
+  padding: 20px;
 }
 .skill-row{
 width: 50%;
 margin:50px auto 200px auto;
 text-align: left;
-line-height: 2;
+
 }
 
 .c{
@@ -68,19 +80,53 @@ span {
 
 .bottom-cloud {
   position: absolute;
+  left:200px;
 }
 
 .top-cloud {
   position: relative;
   left: 300px;
+  bottom: 20px;
 }
 .footer-link {
   padding: 10px;
 }
+
 .bottom-container{
   background-color: #11999E;
- color: #eaf6f6;
+  color: #eaf6f6;
+
 }
 .contact{
   width: 200px;
+}
+
+.myButton {
+	box-shadow:inset 0 0 0 0 #3bb4ff;
+	background:linear-gradient(to bottom, #4db8fa 5%, #184066 100%);
+	background-color:#4db8fa;
+	border-radius:16px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:13px 13px;
+	text-decoration:none;
+	text-shadow:0 1 0 #070b0f;
+  position: relative;
+  bottom: 10px;
+  top: 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #184066 5%, #4db8fa 100%);
+	background-color:#184066;
+}
+.myButton:active {
+	position:relative;
+	bottom:8px;
+}
+.copyright{
+  color: #ffffff;
 }
